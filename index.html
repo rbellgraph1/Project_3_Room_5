@@ -1,11 +1,36 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-<title>Project 3 Group 5</title>
-<meta name="description" content="Our page">
-<meta name="keywords" content="Project">
-</head>
-<body>
-Will Add Data here
-</body>
+    <head>
+        <link rel="stylesheet" href="style.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="scripts.js"></script>
+ 
+    </head>
+    <body style="height:100%; width:100%">
+    <div id="header"> <section>
+        <span id="group">Project 3<br/>Room 5</span> 
+        <span id="logo"><img src="logo.png"></span>
+        <h1>Data Science Bootcamp<br/>Spring 2023</h1>
+       
+    </section>
+    </div> 
+    <div id="content" style="position:absolute; top:100px; bottom: 30px; left:15px; right:15px; overflow:auto;">
+        <section id="about">
+            <h1>About Our Project</h1><br/>
+            <ul id="about_items">
+                <li><a href="#" id="ai_source">Data Source</a></li>
+                <li><a href="#" id="ai_prep">Data Prep</a></li>
+                <li><a href="#" id="ai_analysis">Analysis</a></li>
+            </ul>
+    <div id="ai_source_detail" class="info">Info about our data source goes here</div>
+<div id="ai_prep_detail" class="info">Info about data wrangling goes here</div>
+<div id="ai_analysis_detail" class="info">Info about analysis goes here</div>
+
+        </section>
+    </div> 
+    <div id="footer">
+<ul id="team"><li>Azriel</li><li>Debbie</li></ul>
+
+    </div>
+  </body>
 </html>
