@@ -1,9 +1,41 @@
 # Project_3_Room_5
 
 Kelly:HTML/CSS 
-Deb: 
-Azriel: 
-Robert: 
+Deb: Visualizations  Vizual 3 
+Azriel: adding new column for Region, Visual 2
+Robert: import data     Visual 1
+
+Get the Data and Import   (database)
+SQlite: Pandas 
+Writing HTML to read fromt the SQLite database
+-Add new Column for Continent as Region ( for Country)  -- Azriel
+
+# Visual Possibility: 
+Vis1: ***Companies with multiple divices 
+Type: overlapping araa chart
+User Interations: Form Factor ( Type) Choice , Region/Country, 
+ 
+Vis2: ***Year and Type trend growth   -- Azriel
+Type: bar chart by year and type tracker by count
+User Interations: 
+
+Vis3: Devices by Country  -- Deb
+Type: (World Map) number of devices for county in map size visualization weighted by 10,000
+User Interations: ~~~ Year, Country, Region, Company
+    Layer 1: Watch 
+    Layer 2: Tracker
+    Layer 3: Both
+
+ 
+
+
+
+
+
+
+
+
+
 
 
 # Data and Delivery: 
