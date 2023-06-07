@@ -11,15 +11,15 @@ Writing HTML to read fromt the SQLite database
 -Add new Column for Continent as Region ( for Country)  -- Azriel
 
 # Visual Possibility: 
-Vis1: ***Companies with multiple divices 
+-Vis1: ***Companies with multiple divices 
 Type: overlapping araa chart
 User Interations: Form Factor ( Type) Choice , Region/Country, 
  
-Vis2: ***Year and Type trend growth   -- Azriel
+-Vis2: ***Year and Type trend growth   -- Azriel
 Type: bar chart by year and type tracker by count
 User Interations: 
 
-Vis3: Devices by Country  -- Deb
+-Vis3: Devices by Country  -- Deb
 Type: (World Map) number of devices for county in map size visualization weighted by 10,000
 User Interations: ~~~ Year, Country, Region, Company
     Layer 1: Watch 
@@ -27,22 +27,28 @@ User Interations: ~~~ Year, Country, Region, Company
     Layer 3: Both
 
  
-
-
-
-
-
-
-
-
-
-
-
-# Data and Delivery: 
+ <br><br/>
+ <br><br/>
+### Where Data was obtained for the project: 
 Data is https://dataverse.no/dataset.xhtml?persistentId=doi:10.18710/6ZWC9Z
 DataverseNODataverseNO
 Replication data for Using Fitness Trackers and Smartwatches to Measure Physical Activity in Research
 This dataset contains a list of 423 consumer-based wrist-worn activity trackers and smart watches, capable of collecting and estimating physical ac...
+
+ ### Measurment type: 
+- ***Accelerometer:*** An accelerometer is a sensor that measures acceleration or the rate of change of velocity. In a smartwatch, the accelerometer is used to track movement and activity, such as steps taken, distance travelled, and calories burned. It also enables features such as wrist gestures and shake-to-wake.<br><br/>
+- ***Gyroscope:*** A gyroscope is a sensor used to measure the orientation and angular rates of the body. When you move your wrist to check your smartwatch, a gyroscope on your wristwatch will notify you in a split second.<br><br/>
+- ***Magnetometer:*** A magnetometer is a sensor used to measure magnetic field strength. In smartwatches, it also refers to a compass sensor. This sensor is used to keep track of the motion and direction in which the user is pointing.<br><br/>
+- ***Barometer:*** Barometer on your watch automatically measures the altitude and atmospheric pressure at the current location, and shows all data from the current day in a waveform graph form<br><br/>
+- ***Heartrate:*** Photoplethysmography (PPG) is the most commonly used measurement of heart rate for heart rate trackers. As your heart beats, the volume of blood changes within your cardiovascular systems, including the small skin vessels such as your veins and arteries<br><br/>
+
+
+
+
+
+
+
+
 
 SQLlite for the database 
 
