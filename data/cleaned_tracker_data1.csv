@@ -1,0 +1,407 @@
+,Company,Device,Crowd funded,Country of origin,Region,Release year,Type,Accelerometer,Gyroscope,Magnetometer,Barometer,GPS,Heart Rate
+0,Actofit,Fitness Tracker,True,India,Asia-Pacific,2017,tracker,True,True,True,False,False,True
+1,Adidas,MiCoach Fit Smart,False,Germany,Europe,2014,tracker,True,False,False,False,False,True
+2,Adidas,MiCoach Smart Run,False,Germany,Europe,2013,watch,True,False,False,False,True,True
+3,Airon,105,False,Norway,Europe,2014,tracker,True,False,False,False,False,False
+4,Alcatel,Onetouch GO Watch,False,China,Asia-Pacific,2015,watch,True,True,True,False,False,True
+5,Alcatel,Onetouch Watch,False,China,Asia-Pacific,2015,watch,True,True,True,False,False,True
+6,Allview,Allfit,False,Romania,Europe,2017,tracker,True,False,False,False,False,False
+7,Allview,Allwatch,False,Romania,Europe,2016,watch,True,False,False,False,False,True
+8,Allview,Allwatch S,False,Romania,Europe,2017,tracker,True,False,False,False,False,True
+9,Ambit Networks,AmbyGear Smart Watch,False,USA,North America,2015,watch,True,False,True,False,True,False
+10,Amiigo,Wristband,True,USA,North America,2013,tracker,True,False,False,False,False,True
+11,Apple,Watch,False,USA,North America,2015,watch,True,True,False,False,False,True
+12,Apple,Watch Series 1,False,USA,North America,2016,watch,True,True,False,False,False,True
+13,Apple,Watch Series 2,False,USA,North America,2016,watch,True,True,False,False,True,True
+14,ASUS,Vivowatch,False,Taiwan,Asia-Pacific,2015,watch,True,False,False,False,True,True
+15,ASUS,ZenWatch,False,Taiwan,Asia-Pacific,2014,watch,True,True,True,False,False,True
+16,ASUS,Zenwatch 2,False,Taiwan,Asia-Pacific,2015,watch,True,True,False,False,False,False
+17,ASUS,Zenwatch 3,False,Taiwan,Asia-Pacific,2016,watch,True,True,False,False,False,False
+18,Atlas,Fitness tracker,False,USA,North America,2014,tracker,True,True,False,False,False,True
+19,Atlas,Wristband,True,USA,North America,2015,tracker,True,True,False,False,False,True
+20,Atlas,Wristband2,False,USA,North America,2016,tracker,True,True,False,False,False,True
+21,Awatch,AWatch,False,Italy,Europe,2017,watch,True,True,True,False,True,True
+22,Awatch,Comet,False,Italy,Europe,2016,watch,True,True,True,False,True,True
+23,Awatch,Marine,False,Italy,Europe,2017,watch,True,True,True,False,True,True
+24,Awatch,S,False,Italy,Europe,2016,watch,True,False,True,False,True,True
+25,Awatch,Saturn,False,Italy,Europe,2017,watch,True,True,True,False,True,True
+26,Awatch,Stratosphere,False,Italy,Europe,2016,watch,True,True,True,False,True,True
+27,Awatch,Titan,False,Italy,Europe,2017,watch,True,True,True,True,True,True
+28,Basis,B1,False,USA,North America,2012,tracker,True,False,False,False,False,True
+29,Basis,Peak,False,USA,North America,2014,tracker,True,True,True,False,False,True
+30,Beurer,AS 80,False,Germany,Europe,2014,tracker,True,False,False,False,True,False
+31,Beurer,AS 81,False,Germany,Europe,2015,tracker,True,False,False,False,True,False
+32,Beurer,AS 95 Pulse,False,Germany,Europe,2017,tracker,True,False,False,False,True,True
+33,Beurer,AW 85,False,Germany,Europe,2015,watch,True,False,False,False,True,False
+34,BIA,Sports Watch,True,USA,North America,2013,watch,True,False,False,False,True,False
+35,Bluboo,U,False,China,Asia-Pacific,2015,watch,True,False,False,False,False,False
+36,Burg,27,False,Netherlands,Europe,2015,watch,True,False,False,False,True,False
+37,CarePredict,Tempo,False,USA,North America,2014,tracker,True,False,False,False,False,False
+38,Casio,WSD-F10,False,Japan,Asia-Pacific,2016,watch,True,True,True,True,False,False
+39,Casio,WSD-F20,False,Japan,Asia-Pacific,2017,watch,True,True,True,True,True,False
+40,Cellular ,Line Easyfit Touch,False,Italy,Europe,2016,tracker,True,False,False,False,False,False
+41,Cogito,Classic,False,China,Asia-Pacific,2014,watch,True,False,False,False,False,False
+42,Cogito,Fit,False,China,Asia-Pacific,2015,watch,True,False,False,False,False,False
+43,Cogito,Pop,False,China,Asia-Pacific,2014,watch,True,False,False,False,False,False
+44,Cookoo,2 Watch,True,USA,North America,2014,watch,True,False,False,False,False,False
+45,Denver,BFA-10,False,Denmark,Europe,2016,tracker,True,False,False,False,False,False
+46,Denver,BFH-11,False,Denmark,Europe,2016,tracker,True,False,False,False,False,True
+47,Denver,BFH-12,False,Denmark,Europe,2017,tracker,True,False,False,False,False,True
+48,Elephone,w1,False,China,Asia-Pacific,2014,watch,True,False,False,False,False,False
+49,Elephone,w2,False,China,Asia-Pacific,2016,watch,True,False,False,False,False,False
+50,Empatica,E4 Wristband,True,USA,North America,2014,tracker,True,False,False,False,False,True
+51,Empatica,Embrace Watch,False,USA,North America,2016,watch,True,True,False,False,False,False
+52,Emporio Armani,Connected Smartwatch,False,Italy,Europe,2016,watch,True,False,False,False,False,False
+53,Epson,Pulsense PS-100,False,Japan,Asia-Pacific,2014,tracker,True,False,False,False,False,True
+54,Epson,Pulsense PS-500,False,Japan,Asia-Pacific,2014,tracker,True,False,False,False,False,True
+55,Epson,Runsense Watch SF-110,False,Japan,Asia-Pacific,2015,tracker,True,False,False,False,False,False
+56,Epson,Runsense Watch SF-310,False,Japan,Asia-Pacific,2015,tracker,True,False,False,False,True,False
+57,Epson,Runsense Watch SF-510,False,Japan,Asia-Pacific,2015,tracker,True,False,False,False,True,False
+58,Epson,Runsense Watch SF-710,False,Japan,Asia-Pacific,2015,tracker,True,False,False,False,True,False
+59,Epson,Runsense Watch SF-810,False,Japan,Asia-Pacific,2015,tracker,True,False,False,False,True,True
+60,Fitbit,Alta,False,USA,North America,2016,tracker,True,False,False,False,False,False
+61,Fitbit,Alta HR,False,USA,North America,2017,tracker,True,False,False,False,False,True
+62,Fitbit,Blaze,False,USA,North America,2016,watch,True,False,False,True,False,True
+63,Fitbit,Charge,False,USA,North America,2014,tracker,True,False,False,False,False,False
+64,Fitbit,Charge 2,False,USA,North America,2016,tracker,True,False,False,True,False,True
+65,Fitbit,Charge HR,False,USA,North America,2015,tracker,True,False,False,False,False,True
+66,Fitbit,Flex,False,USA,North America,2013,tracker,True,False,False,False,False,False
+67,Fitbit,Flex 2,False,USA,North America,2016,tracker,True,False,False,False,False,False
+68,Fitbit,Surge,False,USA,North America,2015,watch,True,True,True,True,True,True
+69,Fitbug,Orb,False,USA,North America,2013,tracker,True,False,False,False,False,False
+70,Forever,SB-100,False,Poland,Europe,2015,tracker,True,False,False,False,False,False
+71,Forever,SB-200,False,Poland,Europe,2016,tracker,True,False,False,False,False,False
+72,Forever,SB-300,False,Poland,Europe,2015,tracker,True,False,False,False,False,False
+73,Forever,SB-310,False,Poland,Europe,2016,tracker,True,False,False,False,False,True
+74,Fossil,Q Touchscreen Gen 2 Smartwatch,False,USA,North America,2016,watch,True,True,False,False,False,False
+75,Fossil,Q Touchscreen Smartwatch,False,USA,North America,2015,watch,True,True,False,False,False,False
+76,Garmin,Approach S20,False,USA,North America,2016,watch,True,False,False,False,True,False
+77,Garmin,Approach S6,False,USA,North America,2014,watch,True,False,False,False,True,False
+78,Garmin,Approach X40,False,USA,North America,2016,watch,True,False,False,False,True,True
+79,Garmin,D2,False,USA,North America,2013,watch,True,False,True,True,True,True
+80,Garmin,D2 Bravo,False,USA,North America,2015,watch,True,False,True,True,True,True
+81,Garmin,Epix,False,USA,North America,2015,watch,True,False,True,True,True,True
+82,Garmin,Fenix 2,False,USA,North America,2014,watch,True,False,True,True,True,False
+83,Garmin,Fenix 3,False,USA,North America,2015,watch,True,False,True,True,True,True
+84,Garmin,fenix 3 HR,False,USA,North America,2016,watch,True,False,True,True,True,True
+85,Garmin,fenix 3 Sapphire,False,USA,North America,2016,watch,True,False,True,True,True,True
+86,Garmin,fenix 5 Series,False,USA,North America,2017,watch,True,False,True,True,True,False
+87,Garmin,fenix Chronos,False,USA,North America,2016,watch,True,False,True,True,True,True
+88,Garmin,Forerunner 15,False,USA,North America,2014,watch,True,False,False,False,True,False
+89,Garmin,Forerunner 220,False,USA,North America,2013,watch,True,False,False,False,True,False
+90,Garmin,Forerunner 225,False,USA,North America,2015,watch,True,False,False,False,True,True
+91,Garmin,Forerunner 230,False,USA,North America,2015,watch,True,False,False,False,True,False
+92,Garmin,Forerunner 235,False,USA,North America,2015,watch,True,False,False,False,True,True
+93,Garmin,Forerunner 25,False,USA,North America,2015,watch,True,False,False,False,True,False
+94,Garmin,Forerunner 35,False,USA,North America,2016,watch,True,False,False,False,True,True
+95,Garmin,Forerunner 620,False,USA,North America,2013,watch,True,False,False,False,False,False
+96,Garmin,Forerunner 630,False,USA,North America,2015,watch,True,False,False,False,True,False
+97,Garmin,Forerunner 735XT,False,USA,North America,2016,watch,True,False,False,False,True,True
+98,Garmin,Forerunner 920XT,False,USA,North America,2014,watch,True,False,False,True,True,False
+99,Garmin,Forerunner 935,False,USA,North America,2017,watch,True,True,True,True,True,True
+100,Garmin,Quatix,False,USA,North America,2013,watch,True,False,True,True,True,False
+101,Garmin,Quatix 3,False,USA,North America,2016,watch,True,False,True,True,True,False
+102,Garmin,Quatix 5,False,USA,North America,2017,watch,True,True,True,True,True,True
+103,Garmin,Swim,False,USA,North America,2012,watch,True,False,False,False,False,False
+104,Garmin,Tactix,False,USA,North America,2013,watch,True,False,True,True,True,False
+105,Garmin,Tactix Bravo,False,USA,North America,2016,watch,True,False,True,True,True,False
+106,Garmin,Vivoactive,False,USA,North America,2015,watch,True,False,False,False,True,True
+107,Garmin,Vivoactive HR,False,USA,North America,2016,watch,True,False,False,False,True,True
+108,Garmin,Vivofit,False,USA,North America,2014,tracker,True,False,False,False,False,False
+109,Garmin ,Vivofit 2,False,USA,North America,2015,tracker,True,False,False,False,False,False
+110,Garmin,Vivofit 3,False,USA,North America,2016,tracker,True,False,False,False,False,False
+111,Garmin,Vivofit JR,False,USA,North America,2016,tracker,True,False,False,False,False,False
+112,Garmin,Vivosmart,False,USA,North America,2014,tracker,True,False,False,False,False,False
+113,Garmin,Vivosmart 3,False,USA,North America,2017,tracker,True,False,False,False,False,True
+114,Garmin,Vivosmart HR,False,USA,North America,2015,tracker,True,False,False,True,False,True
+115,Garmin,Vivosmart HR+,False,USA,North America,2016,tracker,True,False,True,True,True,True
+116,Goji,GO,False,England,Europe,2016,tracker,True,False,False,False,False,False
+117,GOQii,Activity Band,False,USA,North America,2015,tracker,True,False,False,False,False,False
+118,GOQii,V2,False,USA,North America,2016,tracker,True,False,False,False,False,False
+119,Haier,watch,False,China,Asia-Pacific,2016,watch,True,True,True,False,False,True
+120,Hannspree,sports watch,False,Taiwan,Asia-Pacific,2015,watch,True,False,False,False,False,False
+121,HealBe,GoBe,False,Russia,Asia-Pacific,2014,tracker,True,False,False,False,False,False
+122,Huawei,Fit,False,China,Asia-Pacific,2016,watch,True,True,False,False,False,True
+123,Huawei,Honor Band A1,False,China,Asia-Pacific,2016,tracker,True,False,False,False,False,False
+124,Huawei,Honor Band Z1,False,China,Asia-Pacific,2015,tracker,True,False,False,False,False,False
+125,Huawei,Talkband B1,False,China,Asia-Pacific,2014,tracker,True,False,False,False,False,False
+126,Huawei,Talkband B2,False,China,Asia-Pacific,2015,tracker,True,True,False,False,False,False
+127,Huawei,TalkBand B3,False,China,Asia-Pacific,2016,tracker,True,False,False,False,False,False
+128,Huawei,Watch,False,China,Asia-Pacific,2015,watch,True,True,False,True,False,True
+129,Huawei,Watch 2,False,China,Asia-Pacific,2017,watch,True,True,True,True,True,True
+130,I.am,Dial,False,USA,North America,2016,watch,True,True,False,False,True,False
+131,I.am,Puls,False,USA,North America,2015,watch,True,True,False,False,True,False
+132,iFit,Active,False,USA,North America,2014,tracker,True,False,False,False,False,False
+133,iFit,Axis HR,False,USA,North America,2016,tracker,True,False,False,False,False,True
+134,iFit,Classic,False,USA,North America,2015,tracker,True,False,False,False,False,False
+135,iFit,Duo,False,USA,North America,2015,tracker,True,False,False,False,False,False
+136,iFit,Link,False,USA,North America,2015,tracker,True,False,False,False,False,False
+137,iFit,Vue,False,USA,North America,2015,tracker,True,False,False,False,False,False
+138,iHealth,Activity And Sleep Tracker ,False,USA,North America,2014,tracker,True,False,False,False,False,False
+139,I'm,s.p.a I'm watch,False,Italy,Europe,2012,watch,True,False,True,False,False,False
+140,Imco,CoBand k4,False,USA,North America,2017,tracker,True,False,False,False,False,True
+141,Imco,cowatch,True,USA,North America,2016,watch,True,True,True,False,False,True
+142,InBody,Band ,False,USA,North America,2015,tracker,True,False,False,False,False,False
+143,Intex,fitrist,False,India,Asia-Pacific,2016,tracker,True,False,False,False,False,False
+144,Intex,Fitrist cardio,False,India,Asia-Pacific,2017,tracker,True,False,False,False,False,True
+145,Intex,fitrist pulzz,False,India,Asia-Pacific,2016,tracker,True,False,False,False,False,True
+146,Intex,iRist Pro,False,India,Asia-Pacific,2016,watch,True,True,False,False,True,False
+147,Intex,IRist Smartwatch,False,India,Asia-Pacific,2015,watch,True,True,True,False,True,False
+148,iRadish ,i7,False,China,Asia-Pacific,2014,watch,True,True,False,True,False,False
+149,Jawbone,UP,False,USA,North America,2011,tracker,True,False,False,False,False,False
+150,Jawbone,UP Move,False,USA,North America,2014,tracker,True,False,False,False,False,False
+151,Jawbone,UP2,False,USA,North America,2015,tracker,True,False,False,False,False,False
+152,Jawbone,UP24,False,USA,North America,2013,tracker,True,False,False,False,False,False
+153,Jawbone,UP3,False,USA,North America,2015,tracker,True,False,False,False,False,True
+154,Jawbone,UP4,False,USA,North America,2015,tracker,True,False,False,False,False,True
+155,Jaybird,Reign,False,USA,North America,2014,tracker,True,False,False,False,False,False
+156,Jumpy,Jumpy,True,USA,North America,2014,watch,True,True,False,False,True,False
+157,K8,3g,False,China,Asia-Pacific,2015,watch,True,False,False,False,True,True
+158,Kate Spade,Activity Tracker,False,USA,North America,2016,tracker,True,False,False,False,False,False
+159,Kate Spade,Smartwatch,False,USA,North America,2016,watch,True,False,False,False,False,False
+160,König,KN-ACTBL10B,False,Netherlands,Europe,2015,tracker,True,False,False,False,False,False
+161,LeapFrog,Leap Band,False,USA,North America,2014,tracker,True,False,False,False,False,False
+162,Lefun,Gear S,False,China,Asia-Pacific,2015,watch,True,False,False,False,False,False
+163,Lefun,One,False,China,Asia-Pacific,2015,watch,True,False,False,False,False,False
+164,Lefun,U8P,False,China,Asia-Pacific,2015,watch,True,False,False,False,False,False
+165,Lenovo,Vibe band vb10,False,China,Asia-Pacific,2015,tracker,True,False,False,False,False,False
+166,LG,G Watch,False,South Korea,Asia-Pacific,2014,watch,True,True,True,False,False,False
+167,LG,G Watch R,False,South Korea,Asia-Pacific,2014,watch,True,True,True,True,False,True
+168,LG,Lifeband Touch,False,South Korea,Asia-Pacific,2014,tracker,True,False,False,False,False,False
+169,LG,Watch Sport,False,South Korea,Asia-Pacific,2017,watch,True,True,False,True,True,True
+170,LG,Watch Style,False,South Korea,Asia-Pacific,2017,watch,True,True,False,False,False,False
+171,LG,Watch Urbane,False,South Korea,Asia-Pacific,2015,watch,True,True,True,True,False,True
+172,LG,Watch Urbane 2nd Edition LTE,False,South Korea,Asia-Pacific,2016,watch,True,True,True,True,True,True
+173,LifeTrak,Brite R440,False,USA,North America,2014,tracker,True,False,False,False,True,False
+174,LifeTrak,Brite R450,False,USA,North America,2014,tracker,True,False,False,False,False,False
+175,LifeTrak,Core C210,False,USA,North America,2014,tracker,True,False,False,False,False,False
+176,LifeTrak,Move C300,False,USA,North America,2013,tracker,True,False,False,False,False,False
+177,LifeTrak,Zone C410,False,USA,North America,2014,tracker,True,False,False,False,False,False
+178,LifeTrak,Zone R420,False,USA,North America,2014,tracker,True,False,False,False,False,False
+179,LifeTrak,Zoom HRV,False,USA,North America,2016,tracker,True,False,False,False,False,True
+180,Martian,Notifier,False,USA,North America,2014,watch,True,False,False,False,False,False
+181,Martian,Passport,False,USA,North America,2013,watch,True,False,False,False,False,False
+182,Martian,Watches,False,USA,North America,2013,watch,True,False,False,False,False,False
+183,Meta Watch,Frame,False,USA,North America,2013,watch,True,False,True,False,False,False
+184,Meta Watch,M1,False,USA,North America,2014,watch,True,False,True,False,True,False
+185,Meta Watch,Strata,False,USA,North America,2012,watch,True,False,False,False,False,False
+186,Michael Kors ,Access Activity Tracker,False,USA,North America,2016,tracker,True,False,False,False,False,False
+187,Michael Kors ,Access Smartwatch,False,USA,North America,2016,watch,True,True,False,False,False,False
+188,Microsoft,Band,False,USA,North America,2014,tracker,True,True,False,False,True,True
+189,Microsoft,Band 2,False,USA,North America,2015,tracker,True,True,False,True,True,True
+190,Mio,Alpha 2,False,Canada,North America,2015,tracker,True,False,False,False,False,True
+191,Mio,FUSE,False,Canada,North America,2014,tracker,True,False,False,False,False,True
+192,Mio,SLICE,False,Canada,North America,2017,tracker,True,False,False,False,False,True
+193,Misfit,Flare,False,USA,North America,2017,tracker,True,False,False,False,False,False
+194,Misfit,Flash,False,USA,North America,2014,tracker,True,False,False,False,False,False
+195,Misfit,Link,False,USA,North America,2015,tracker,True,False,False,False,False,False
+196,Misfit,Ray,False,USA,North America,2016,tracker,True,False,False,False,False,False
+197,Misfit,Shine,True,USA,North America,2013,tracker,True,False,False,False,False,False
+198,Misfit,Shine 2,False,USA,North America,2015,tracker,True,False,False,False,False,False
+199,Misfit,Speedo Shine,False,USA,North America,2015,tracker,True,False,False,False,False,False
+200,Misfit,Vapor,False,USA,North America,2017,watch,True,False,False,True,True,True
+204,Mobile Action,i-gotU Q-Band Q-66 HR,False,Taiwan,Asia-Pacific,2016,tracker,True,False,False,False,False,True
+206,Mobile Action,i-gotU Q-Watch Q-70,False,Taiwan,Asia-Pacific,2015,watch,True,False,False,False,False,False
+207,Mobile Action,i-GotU Q-Watch Q-72,False,Taiwan,Asia-Pacific,2015,watch,True,False,False,False,False,False
+208,Mobile Action,i-GotU Q-Watch Q-77 HR,False,Taiwan,Asia-Pacific,2016,watch,True,False,False,False,False,True
+209,Mobvoi,Ticwatch,True,China,Asia-Pacific,2015,watch,True,True,False,False,False,True
+210,Mobvoi,Ticwatch 2,True,China,Asia-Pacific,2016,watch,True,True,False,False,True,True
+211,Mondaine,Helvetica 1 smartwatch,False,Switzerland,North America,2015,watch,True,False,False,False,False,False
+212,Montblanc,TimeWalker Urban Speed e-Strap,False,Germany,Europe,2015,tracker,True,False,False,False,False,False
+213,Moov,Moov,False,USA,North America,2014,tracker,True,True,True,False,False,False
+214,Moov,Now,False,USA,North America,2015,tracker,True,True,True,False,False,False
+215,Motorola,Moto 360,False,USA,North America,2014,watch,True,False,False,False,False,True
+216,Motorola,Moto 360 2,False,USA,North America,2015,watch,True,True,False,False,False,True
+217,Motorola,Moto 360 Sport,False,USA,North America,2015,watch,True,True,False,True,True,True
+218,Motorola,Motoactv,False,USA,North America,2011,watch,True,False,False,False,True,False
+219,Movado,Bold Motion,False,USA,North America,2015,watch,True,False,False,False,False,False
+220,Movband:,Model 2,False,USA,North America,2013,tracker,True,False,False,False,False,False
+221,Movband:,Model 3,False,USA,North America,2015,watch,True,False,False,False,False,False
+222,Movo,Wave,False,USA,North America,2014,tracker,True,False,False,False,False,False
+223,MyKronoz,ZeBracelet2,False,Switzerland,Europe,2014,watch,True,False,False,False,False,False
+224,MyKronoz,ZeCircle,False,Switzerland,Europe,2015,tracker,True,False,False,False,False,False
+225,MyKronoz,ZeCircle 2,False,Switzerland,Europe,2017,tracker,True,False,False,False,False,False
+226,MyKronoz,ZeFit,False,Switzerland,Europe,2014,tracker,True,False,False,False,False,False
+227,MyKronoz,ZeFit2,False,Switzerland,Europe,2015,tracker,True,False,False,False,False,False
+228,MyKronoz,ZeFit2 Pulse,False,Switzerland,Europe,2015,tracker,True,False,False,False,False,True
+229,MyKronoz,ZeFit3,False,Switzerland,Europe,2016,tracker,True,False,False,False,False,False
+230,MyKronoz,ZeFit3 HR,False,Switzerland,Europe,2016,tracker,True,False,False,False,False,True
+231,MyKronoz,ZePhone,False,Switzerland,Europe,2015,watch,True,True,False,False,True,False
+232,MyKronoz,ZeRound,False,Switzerland,Europe,2016,watch,True,False,False,False,False,False
+233,MyKronoz,ZeSplash,False,Switzerland,Europe,2014,watch,True,False,False,False,False,False
+234,MyKronoz,ZeSplash2,False,Switzerland,Europe,2016,watch,True,False,False,False,False,True
+235,MyKronoz,ZeSport,False,Switzerland,Europe,2016,watch,True,False,False,True,True,True
+236,MyKronoz,ZeTel,False,Switzerland,Europe,2015,watch,True,True,False,False,False,True
+237,MyKronoz,ZeWatch 4HR,False,Switzerland,Europe,2016,watch,True,False,False,False,False,True
+238,MyKronoz,ZeWatch2,False,Switzerland,Europe,2014,watch,True,False,False,False,False,False
+239,MyKronoz,ZeWatch3,False,Switzerland,Europe,2015,watch,True,False,False,False,False,False
+240,MyKronoz,ZeWatch4,False,Switzerland,Europe,2016,watch,True,False,False,False,False,False
+241,Neptune,Pine,True,Canada,North America,2014,watch,True,True,True,False,True,False
+242,Nevo,Watch,True,France,Europe,2015,watch,True,False,False,False,False,False
+243,New Balance ,RunIQ,False,USA,North America,2017,watch,True,True,False,False,True,True
+244,Nike,FuelBand,False,USA,North America,2012,tracker,True,False,False,False,False,False
+245,Nike,FuelBand SE,False,USA,North America,2013,tracker,True,False,False,False,False,False
+246,Nike,Sportwatch GPS,False,USA,North America,2011,watch,True,False,False,False,False,False
+247,Nixon,Mission Smartwatch,False,USA,North America,2016,watch,True,True,True,True,True,False
+248,DT No.1,D3,False,China,Asia-Pacific,2015,watch,True,False,False,False,False,True
+249,DT No.1,D5,False,China,Asia-Pacific,2015,watch,True,False,False,False,True,True
+250,DT No.1,D5+,False,China,Asia-Pacific,2016,watch,True,True,False,True,True,True
+251,DT No.1,D6,False,China,Asia-Pacific,2016,watch,True,False,False,True,True,True
+252,DT No.1,D7,False,China,Asia-Pacific,2017,watch,True,False,False,True,True,True
+253,DT No.1,F1,False,China,Asia-Pacific,2016,tracker,True,False,False,False,False,True
+254,DT No.1,F2,False,China,Asia-Pacific,2017,watch,True,False,False,True,False,False
+255,DT No.1,F3,False,China,Asia-Pacific,2017,watch,True,False,False,True,False,False
+256,DT No.1,G2,False,China,Asia-Pacific,2015,watch,True,False,False,False,False,True
+257,DT No.1,G3,False,China,Asia-Pacific,2016,watch,True,False,False,False,False,True
+258,DT No.1,G3+,False,China,Asia-Pacific,2016,watch,True,False,False,False,False,True
+259,DT No.1,G4,False,China,Asia-Pacific,2016,watch,True,False,False,False,False,True
+260,DT No.1,G5,False,China,Asia-Pacific,2016,watch,True,False,False,False,False,True
+261,DT No.1,G6,False,China,Asia-Pacific,2016,watch,True,False,False,False,False,True
+262,DT No.1,G7,False,China,Asia-Pacific,2016,watch,True,False,False,False,False,True
+263,DT No.1,G8,False,China,Asia-Pacific,2017,watch,True,False,False,False,False,True
+264,DT No.1,S9,False,China,Asia-Pacific,2017,watch,True,True,False,False,False,True
+265,DT No.1,Sun S2,False,China,Asia-Pacific,2015,watch,True,False,False,False,False,True
+266,DT No.1,Watch S3,False,China,Asia-Pacific,2015,watch,True,False,False,False,False,True
+267,Nymi,The Nymi Band,False,Canada,North America,2016,tracker,True,True,False,False,False,True
+268,Olio,Model One,False,USA,North America,2015,watch,True,True,False,False,False,False
+269,Omate,Lutetia,False,China,Asia-Pacific,2015,watch,True,False,False,False,True,False
+270,Omate,Racer,False,China,Asia-Pacific,2015,watch,True,False,False,False,False,False
+271,Omate,Rise,False,China,Asia-Pacific,2016,watch,True,True,True,False,True,False
+272,Omate,Roma,False,China,Asia-Pacific,2015,watch,True,False,False,False,False,False
+273,Omate,TrueSmart,False,China,Asia-Pacific,2014,watch,True,True,True,False,True,False
+274,Omate,TrueSmart+,False,China,Asia-Pacific,2015,watch,True,True,True,False,True,False
+275,Omate,TrueSmart-i,False,China,Asia-Pacific,2015,watch,True,True,True,False,True,False
+276,Omate,Wherecom k3,False,China,Asia-Pacific,2016,watch,True,False,False,False,True,False
+277,Omate,X,False,China,Asia-Pacific,2014,watch,True,True,False,False,False,False
+278,Omron,Mira System,False,China,Asia-Pacific,2015,tracker,True,False,False,False,False,False
+279,O-Synce,mixfree+heart2feel,False,China,Asia-Pacific,2012,watch,True,False,False,False,False,False
+280,O-Synce,mixpro+heart2feel,False,China,Asia-Pacific,2012,watch,True,False,False,False,False,False
+281,Oumax,Fit T1s,False,China,Asia-Pacific,2014,tracker,True,False,False,False,False,False
+282,Oumax,Fit T3,False,China,Asia-Pacific,2015,tracker,True,False,False,False,False,False
+283,Oumax,Fit T3 HR,False,China,Asia-Pacific,2016,tracker,True,False,True,False,False,True
+285,Oumax,Watch S6,False,China,Asia-Pacific,2015,watch,True,False,False,False,False,False
+286,Oumax,Watch S7,False,China,Asia-Pacific,2016,watch,True,False,False,False,False,False
+287,Oumax,Watch S8,False,China,Asia-Pacific,2017,watch,True,False,False,False,False,True
+288,Pebble,Steel,False,USA,North America,2014,watch,True,False,True,False,False,False
+289,Pebble,Time,False,USA,North America,2015,watch,True,False,True,False,False,False
+290,Pebble,Time Round,False,USA,North America,2015,watch,True,False,True,False,False,False
+291,Pebble,Time Steel,False,USA,North America,2015,watch,True,False,True,False,False,False
+292,Pebble,Watch,False,USA,North America,2013,watch,True,False,True,False,False,False
+293,Pebble,Watch 2,False,USA,North America,2016,watch,True,True,False,False,False,True
+294,Phtl,Hot watch,True,USA,North America,2015,watch,True,True,False,False,False,False
+295,Pivotal Living,Life Tracker 1,False,USA,North America,2014,tracker,True,False,False,False,False,False
+296,Polar,Loop,False,Finland,Europe,2013,tracker,True,False,False,False,False,False
+297,Polar,M400,False,Finland,Europe,2014,watch,True,False,False,False,True,False
+298,Polar,V800,False,Finland,Europe,2014,watch,True,False,False,True,True,False
+299,Polar,A300,False,Finland,Europe,2015,watch,True,False,False,False,False,False
+300,Polar,A360,False,Finland,Europe,2015,tracker,True,False,False,False,False,True
+301,Polar,Loop 2,False,Finland,Europe,2015,tracker,True,False,False,False,False,False
+302,Polar,Loop Crystal,False,Finland,Europe,2015,tracker,True,False,False,False,False,False
+303,Polar,M200,False,Finland,Europe,2016,watch,True,False,False,False,True,True
+304,Polar,M600,False,Finland,Europe,2016,watch,True,True,False,False,True,True
+305,Polar,A370,False,Finland,Europe,2017,tracker,True,False,False,False,False,True
+306,Polar,M430,False,Finland,Europe,2017,watch,True,False,False,False,True,True
+307,PulseOn,PulseOn,False,Finland,Europe,2014,tracker,True,False,False,False,False,True
+308,Puro,Fit Watch,False,Italy,Europe,2015,tracker,True,False,False,False,False,False
+309,Qualcomm,Toq,False,USA,North America,2013,watch,True,False,False,False,False,False
+310,Razer,Nabu,False,USA,North America,2014,tracker,True,False,False,False,False,False
+311,Razer,Nabu Watch,False,USA,North America,2016,watch,True,False,False,False,False,False
+312,Razer,Nabu X,False,USA,North America,2015,tracker,True,False,False,False,False,False
+313,Remington ,Fitness Armbånd,False,USA,North America,2016,tracker,True,False,False,False,False,False
+314,Rip Curl,SearchGPS,False,Australia,Asia-Pacific,2014,tracker,True,False,False,False,True,False
+315,Runtastic,Moment,False,Austria,Europe,2015,watch,True,False,False,False,False,False
+316,Runtastic,Orbit,False,Austria,Europe,2014,tracker,True,False,False,False,False,False
+317,Samsung,Charm ,False,South Korea,Asia-Pacific,2016,tracker,True,False,False,False,False,False
+318,Samsung,Galaxy Gear,False,South Korea,Asia-Pacific,2013,watch,True,True,False,False,False,False
+319,Samsung,Gear,False,South Korea,Asia-Pacific,2014,watch,True,True,False,False,False,False
+320,Samsung,Gear 2,False,South Korea,Asia-Pacific,2014,watch,True,True,False,False,False,True
+321,Samsung,Gear 2 Neo,False,South Korea,Asia-Pacific,2014,watch,True,True,False,False,False,True
+322,Samsung,Gear Fit,False,South Korea,Asia-Pacific,2014,watch,True,True,False,False,False,True
+323,Samsung,Gear Fit 2,False,South Korea,Asia-Pacific,2016,watch,True,True,False,True,True,True
+324,Samsung,Gear Live,False,South Korea,Asia-Pacific,2014,watch,True,True,True,False,False,True
+325,Samsung,Gear S,False,South Korea,Asia-Pacific,2014,watch,True,True,True,True,True,True
+326,Samsung,Gear S2,False,South Korea,Asia-Pacific,2015,watch,True,True,False,True,False,True
+327,Samsung,Gear S2 3G,False,South Korea,Asia-Pacific,2016,watch,True,True,False,True,True,True
+328,Samsung,Gear S3,False,South Korea,Asia-Pacific,2016,watch,True,True,False,True,True,True
+330,SBS,Beat Fitness tracker,False,Italy,Europe,2016,tracker,True,False,False,False,False,False
+334,Shammane,Smartwatch,True,France,Europe,2016,watch,True,False,False,False,False,False
+335,Shanda ,Geak watch 2,False,China,Asia-Pacific,2014,watch,True,False,False,False,False,False
+336,Sigma,Sport Activo,False,Germany,Europe,2015,tracker,True,False,False,False,False,False
+337,Silva,SEC Smartband,False,Sweden,Europe,2015,tracker,True,False,False,False,False,False
+338,Silva,SEC X Smartband,False,Sweden,Europe,2015,tracker,True,False,False,False,False,False
+339,Skagen,Allsund Activity tracker,False,USA,North America,2016,tracker,True,False,False,False,False,False
+341,Sony,SmartBand SWR10,False,Japan,Asia-Pacific,2014,tracker,True,False,False,False,False,False
+342,Sony,Smartband Talk SWR30,False,Japan,Asia-Pacific,2014,tracker,True,False,False,True,False,False
+343,Sony,SmartWatch 2 SW2,False,Japan,Asia-Pacific,2013,watch,True,False,False,False,False,False
+344,Sony,SmartWatch 3 SWR50,False,Japan,Asia-Pacific,2014,watch,True,True,True,False,True,False
+345,Sony,Wena,False,Japan,Asia-Pacific,2016,watch,True,False,False,False,False,False
+346,Sqord,PowerPod,False,USA,North America,2013,tracker,True,False,False,False,False,False
+347,Streetz,Smart Fitness HLT-1000,False,Sweden,Europe,2016,tracker,True,False,False,False,False,False
+348,Streetz,Smart Fitness HLT-1002,False,Sweden,Europe,2016,tracker,True,False,False,False,False,False
+349,Streetz,Smart Fitness HLT-1003,False,Sweden,Europe,2016,tracker,True,False,False,False,False,False
+352,Striiv,Fusion 2,False,USA,North America,2016,tracker,True,False,False,False,False,False
+353,Striiv,Fusion Bio 2,False,USA,North America,2016,tracker,True,False,False,False,False,True
+354,Striiv,Fusion Lite,False,USA,North America,2015,tracker,True,False,False,False,False,False
+355,Suunto,Ambit2,False,Finland,Europe,2013,watch,True,False,True,True,True,False
+356,Suunto,Ambit3,False,Finland,Europe,2014,watch,True,False,True,True,True,False
+357,Suunto,Spartan,False,Finland,Europe,2016,watch,True,False,True,True,True,False
+358,Suunto,Spartan HR,False,Finland,Europe,2017,watch,True,False,True,False,True,True
+359,Sync,Burn Fitness Tracker,False,USA,North America,2013,tracker,True,False,False,False,False,False
+360,Sync,GPS Watches,False,USA,North America,2013,tracker,True,False,False,False,False,False
+361,Tag Heuer,Connected Modular 45,False,Switzerland,Europe,2017,watch,True,True,True,False,True,False
+362,Technaxx,TX-37,False,Germany,Europe,2014,tracker,True,False,False,False,False,False
+363,Technaxx,TX-38,False,Germany,Europe,2014,tracker,True,False,False,False,False,False
+364,Technaxx,TX-39,False,Germany,Europe,2014,tracker,True,False,False,False,False,False
+365,Technaxx,TX-42,False,Germany,Europe,2014,tracker,True,False,False,False,False,False
+366,Technaxx,TX-63,False,Germany,Europe,2016,tracker,True,False,False,False,False,False
+367,Technaxx,TX-72,False,Germany,Europe,2016,tracker,True,False,False,False,False,False
+368,Timex,Ironman Move X20,False,USA,North America,2014,tracker,True,False,False,False,False,False
+369,Timex,Ironman One,False,USA,North America,2014,watch,True,False,False,False,True,False
+370,Timex,Metropolitan,False,USA,North America,2015,tracker,True,False,False,False,False,False
+371,Tissot,Smart Touch,False,Switzerland,Europe,2016,watch,True,False,True,True,True,False
+372,Titan,Juxt,False,India,Asia-Pacific,2016,watch,True,False,False,False,False,False
+373,TLink,Golf Watch,False,USA,North America,2014,tracker,True,False,False,False,True,False
+374,TomTom,Adventurer,False,Netherlands,Europe,2016,watch,True,True,True,True,True,True
+375,TomTom,Golfer 2,False,Netherlands,Europe,2016,watch,True,True,True,False,True,False
+376,TomTom,Runner,False,Netherlands,Europe,2014,watch,True,False,False,False,False,True
+377,TomTom,Runner Cardio,False,Netherlands,Europe,2014,watch,True,True,True,False,True,True
+378,TomTom,Spark,False,Netherlands,Europe,2015,watch,True,False,False,False,True,False
+379,TomTom,Spark 3 Cardio,False,Netherlands,Europe,2016,watch,True,True,True,False,True,True
+380,TomTom,Touch Cardio Fitness Tracker,False,Netherlands,Europe,2016,tracker,True,True,True,False,False,True
+381,Ulefone,Uwear,False,China,Asia-Pacific,2015,watch,True,False,False,False,False,False
+382,Under Armour ,Band,False,USA,North America,2016,tracker,True,False,False,False,False,True
+383,Uno,Noteband,True,USA,North America,2015,tracker,True,True,False,False,False,False
+384,Vector,LUNA,False,England,Europe,2015,watch,True,True,False,False,False,False
+385,Vector,Meridian Smartwatch,False,England,Europe,2015,watch,True,True,False,False,False,False
+386,WearIT,Smart Watch,False,Italy,Europe,2013,watch,True,False,True,False,True,False
+387,Wellograph,Wellograph,False,Thailand,Asia-Pacific,2014,tracker,True,True,True,False,False,True
+388,WHOOP,Strap 2.0,False,USA,North America,2016,tracker,True,False,False,False,False,True
+389,Wisewear,Wisewear,False,USA,North America,2015,tracker,True,False,False,False,True,False
+390,Withings,Go,False,France,Europe,2016,tracker,True,False,False,False,False,False
+391,Withings,Pulse O2,False,France,Europe,2013,tracker,True,False,False,True,False,True
+392,World International,Helo classic,False,USA,North America,2016,tracker,True,True,False,False,True,True
+393,World International,Helo LX,False,USA,North America,2016,tracker,True,True,False,False,True,True
+398,WorldSim,Neuvo,False,England,Europe,2015,watch,True,True,False,False,False,False
+399,WorldSim,Nigma,False,England,Europe,2016,watch,True,False,False,False,False,True
+401,Xiaomi,Mi Band,False,China,Asia-Pacific,2014,tracker,True,False,False,False,False,True
+402,Xiaomi,MI Band 2,False,China,Asia-Pacific,2016,tracker,True,False,False,False,False,True
+403,Xiaomi,Mi Bunny,False,China,Asia-Pacific,2016,tracker,True,False,False,False,True,False
+404,Zeblaze,Blitz,False,China,Asia-Pacific,2016,watch,True,True,False,False,True,True
+405,Zeblaze,Classic,False,China,Asia-Pacific,2016,watch,True,False,False,False,False,True
+406,Zeblaze,Cosmo,False,China,Asia-Pacific,2016,watch,True,False,False,False,False,True
+407,Zeblaze,Crystal,False,China,Asia-Pacific,2015,watch,True,False,False,False,False,True
+408,Zeblaze,MiniWear,False,China,Asia-Pacific,2016,watch,True,False,False,False,False,True
+409,Zeblaze,Rover,False,China,Asia-Pacific,2015,watch,True,False,False,True,False,False
+410,Zeblaze,Thor,False,China,Asia-Pacific,2017,watch,True,False,False,False,True,True
+411,Zeblaze,Vibe,False,China,Asia-Pacific,2017,watch,True,False,False,False,False,False
+412,Zeblaze,Zeband,False,China,Asia-Pacific,2016,tracker,True,False,False,False,False,True
+413,ZGPAX,S5,False,China,Asia-Pacific,2013,watch,True,True,True,False,True,False
+414,ZGPAX,S6,False,China,Asia-Pacific,2014,watch,True,False,False,False,True,False
+415,ZGPAX,S7,False,China,Asia-Pacific,2015,watch,True,False,False,False,True,False
+416,ZGPAX,S8,False,China,Asia-Pacific,2015,watch,True,False,False,False,True,False
+417,ZGPAX,S99,False,China,Asia-Pacific,2016,watch,True,False,False,False,True,True
+418,Zitko,Walk,False,USA,North America,2014,tracker,True,True,False,False,False,False
+419,ZTE,Axon Watch,False,China,Asia-Pacific,2015,watch,True,True,True,True,True,True
+420,ZTE,BluWatch,False,China,Asia-Pacific,2014,watch,True,False,False,False,False,False
+421,ZTE,Quartz,False,China,Asia-Pacific,2017,watch,True,True,True,True,True,False
+422,ZTE,Venus G1,False,China,Asia-Pacific,2015,watch,True,False,False,False,True,False
