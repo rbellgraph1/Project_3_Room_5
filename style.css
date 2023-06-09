@@ -71,33 +71,15 @@ ul#team li:hover{
 
 #viz1_container{
     float: left;
-    width:48%
+    width: 48%;
 }
-
 
 #viz2_container{
     float: right;
-    width:48%
-}
+    width: 48%;
 
-#viz3_container{
-    float: left;
-    width: 100%;
-}
-
-#vizr2{
-    clear: both;
-    margin-top: 10px;
-}
-
-#viz h2{
-
-    background: #666666;
-    color: #ffffff;
-    text-align: center;
-    padding: 5px;
 }
 
 .viz_container{
-    border: 2px solid #666666;
+    border: 2px solid blue;
 }
