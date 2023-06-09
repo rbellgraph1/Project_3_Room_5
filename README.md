@@ -40,7 +40,7 @@ This dataset contains a list of 423 consumer-based wrist-worn activity trackers 
 - ***Gyroscope:*** A gyroscope is a sensor used to measure the orientation and angular rates of the body. When you move your wrist to check your smartwatch, a gyroscope on your wristwatch will notify you in a split second.<br><br/>
 - ***Magnetometer:*** A magnetometer is a sensor used to measure magnetic field strength. In smartwatches, it also refers to a compass sensor. This sensor is used to keep track of the motion and direction in which the user is pointing.<br><br/>
 - ***Barometer:*** Barometer on your watch automatically measures the altitude and atmospheric pressure at the current location, and shows all data from the current day in a waveform graph form<br><br/>
-- ***Heartrate:*** Photoplethysmography (PPG) is the most commonly used measurement of heart rate for heart rate trackers. As your heart beats, the volume of blood changes within your cardiovascular systems, including the small skin vessels such as your veins and arteries<br><br/>
+- ***Heart Rate:*** Photoplethysmography (PPG) is the most commonly used measurement of heart rate for heart rate trackers. As your heart beats, the volume of blood changes within your cardiovascular systems, including the small skin vessels such as your veins and arteries<br><br/>
 
 
 

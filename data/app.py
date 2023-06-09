@@ -5,8 +5,10 @@ from sqlalchemy.ext.automap import automap_base
 from sqlalchemy.orm import Session
 from flask import Flask, jsonify
 
+
+app = Flask(__name__)
 # Database Setup
-engine = create_engine("sqlite:///path/to/correctly/named/cleaned_tracker_data.db", echo=False)
+engine = create_engine("sqlite:///cleaned_tracker_data.db", echo=False)
 
 # Create a Base object
 Base = automap_base()
@@ -14,14 +16,14 @@ Base = automap_base()
 # Reflect the database tables
 Base.prepare(engine, reflect=True)
 
-# Map the classes to the tables
+# # Map the classes to the tables
 Class1 = Base.classes.table1_name
 Class2 = Base.classes.table2_name
 
 # Create a session
 session = Session(engine)
 
-app = Flask(__name__)
+
 
 @app.route("/")
 def welcome():
