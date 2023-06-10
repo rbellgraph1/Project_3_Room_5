@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="static/css/style.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+ 
+    </head>
+    <body style="height:100%; width:100%">
+    <div id="header"> <section>
+        <span id="group">Project 3<br/>Room 5</span> 
+        <span id="logo"><img src="data/logo.png"></span>
+        <h1>Data Science Bootcamp<br/>Spring 2023</h1>
+       
+    </section>
+    </div> 
+    <div id="content" style="position:absolute; top:100px; bottom: 30px; left:15px; right:15px; overflow:auto;">
+        <section id="about">
+            <h1>About Our Project</h1><br/>
+            <ul id="about_items">
+                <li><a href="#" id="ai_source">Data Source</a></li>
+                <li><a href="#" id="ai_prep">Data Prep</a></li>
+                <li><a href="#" id="ai_analysis">Analysis</a></li>
+            </ul>
+    <div id="ai_source_detail" class="info">Info about our data source goes here</div>
+<div id="ai_prep_detail" class="info">Info about data wrangling goes here</div>
+<div id="ai_analysis_detail" class="info">Info about analysis goes here</div>
+<div class="container">
+    <div class="row">
+      <div class="col-md-12 jumbotron text-center">
+        <h1>Fitness Wearable Dashboard</h1>
+        <p>
+          <select id='sel'>
+              <option value=''>-- Select --</option>
+          </select>
+      </p>
+      
+      <p>
+          <select id='sel1'>
+              <option value=''>-- Select --</option>
+          </select>
+      </p>
+
+</section>
+</div> 
+<div id="footer">
+<ul id="team"><li>Azriel</li><li>Debbie</li><li>Robert</li><li>Kelly</li></ul>
+
+</div>
+
+  <!-- D3 JavaScript -->
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+   <!-- API key -->
+   <script type="text/javascript" src="static/js/config.js"></script>
+   <!-- Plotly Javascript -->  
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+   <!-- Chart JavaScript -->  
+  <!-- <script src="static/js/charts.js"></script> -->
+  
+</body>
+
+  <!-- </body> -->
+
+  <script>
+    $(document).ready(function () {
+  
+      var arrData = [];
+      
+      $.getJSON('data/tracker_info_deb.json', function (data) {
+        var arr_region_type = [];
+  
+        $.each(data, function (index, value) {
+            arr_region_type.push(value.Region);
+            arrData.push(value); // add value to arrData
+        });
+       
+        // Remove duplicates. We want unique region types.
+        arr_region_type = Array.from(new Set(arr_region_type));
+              // ref (https://www.encodedna.com/javascript/remove-duplicates-in-javascript-array-using-es6-set-and-from.htm)
+  
+        // Fill the first dropdown with unique region types.
+        $.each(arr_region_type, function (index, value) {
+          $('#sel').append('<option value="' + value + '">' + value + '</option>');
+        });
+      });
+      
+      $('#sel').change(function () {
+        var type = $(this).val(); // get the value of the selected dropdown.
+  
+        var filterData = arrData.filter(function(value) {
+          return value.Region === type; 
+        });
+  
+        $('#sel1')
+            .empty()         // remove previous options
+            .append('<option value=""> -- Select Country -- </option>');
+  
+        $.each(filterData, function (index, value) {
+            // Now, fill the second dropdown list with the associated country names.
+            $('#sel1').append('<option value="' + value.ID + '">' + value.Country + '</option>');
+        });
+      })
+    });
+</script>
+
+</html>
