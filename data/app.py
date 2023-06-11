@@ -8,7 +8,7 @@ app = Flask(__name__)
 #################################################
 # Database Setup
 #################################################
-engine = create_engine("sqlite:///Project_3_Room_5/data/tracker_info.sqlite")
+engine = create_engine("sqlite:///tracker_info.sqlite")
 # reflect an existing database into a new model
 Base = automap_base()
 # # reflect the tables
@@ -27,7 +27,7 @@ def welcome():
 
 
 @app.route("/api/v1.0/tracker_info")
-def index():
+def ID_Num():
     # Create our session (link) from Python to the DB
     session = Session(engine)
     #  Query all all
