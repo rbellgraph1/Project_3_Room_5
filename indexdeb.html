@@ -89,9 +89,10 @@
             .empty()         // remove previous options
             .append('<option value=""> -- Select Country -- </option>');
   
+            
         $.each(filterData, function (index, value) {
             // Now, fill the second dropdown list with the associated country names.
-            $('#sel1').append('<option value="' + value.ID + '">' + value.Country + '</option>');
+            $('#sel1').append('<option value="' + value.Device + '">' + value.Country + '</option>');
         });
       })
     });
