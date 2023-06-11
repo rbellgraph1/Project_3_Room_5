@@ -17,15 +17,15 @@ let years = []
 let watches = []
 let trackers = []
 
-// // For loop to populate arrays
-// for (let i = 0; i < searchResults.length; i++) {
-//   row = searchResults[i];
-//   names.push(row.pair);
-//   greekNames.push(row.greekName);
-//   romanNames.push(row.romanName);
-//   greekSearchResults.push(row.greekSearchResults);
-//   romanSearchResults.push(row.romanSearchResults);
-// }
+// For loop to populate arrays
+for (let i = 0; i < years.length; i++) {
+  row = searchResults[i];
+  names.push(row.pair);
+  greekNames.push(row.greekName);
+  romanNames.push(row.romanName);
+  greekSearchResults.push(row.greekSearchResults);
+  romanSearchResults.push(row.romanSearchResults);
+}
 
 (async function () {
   const jsonData = await fetchData();
