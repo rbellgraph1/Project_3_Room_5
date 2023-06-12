@@ -51,43 +51,68 @@
     padding: 0px 15px;
 }
 
-#team li, #about li {
+#team li{
     display: inline;
     padding: 15px;
 }
+
+#about li{
+    padding: 5px;
+    display: inline;
+}
+
 
 ul#team li:hover{
     color: black;
     font-size: 24px;
 }
 
-#about_items { overflow:hidden; margin:1em; }
-#about_items li { float:left; margin:0 2em 0 0; }
+#areas{
+    xxfloat: left;
+    margin-right: 15px;
+    border-bottom: 2px solid #666666;
+}
 
-.info{
+#about_items a{
+    font-size: 30px;
+    text-decoration: none;
+    vertical-align: middle;
+    color: #666666;
+    font-weight: bold;
+    margin-right: 20px;
+}
 
+#about_items img{
+    padding-right: 10px;
+}
+
+.info div{
+    xxxfloat: left;
     display: none;
+    margin: 10px 30px;
+}
+
+#viz{
+    margin-top: 25px;
 }
 
 #viz1_container{
     float: left;
-    width:48%
+    width:49%
 }
-
 
 #viz2_container{
     float: right;
-    width:48%
+    width:49%
 }
 
 #viz3_container{
     float: left;
     width: 100%;
-    margin-top: 10px;
+    margin-top: 25px;
 }
 
 #viz h2{
-
     background: #666666;
     color: #ffffff;
     text-align: center;

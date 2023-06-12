@@ -11,12 +11,11 @@
         integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
         crossorigin="" /> 
     </head>
-    <body style="height:100%; width:100%">
+    <body>
     <div id="header"> <section>
         <span id="group">Project 3<br/>Room 5</span> 
         <span id="logo"><img src="static/img/logo.png"></span>
         <h1>Data Science Bootcamp<br/>Spring 2023</h1>
-       
     </section>
     </div> 
     <div id="content" style="position:absolute; top:100px; bottom: 30px; left:15px; right:15px; overflow:auto;">
@@ -24,25 +23,49 @@
             <h1>About Our Project</h1><br/>
             <div id="areas">
             <ul id="about_items">
-                <li><a href="#" id="ai_source">Data Source</a></li>
-                <li><a href="#" id="ai_prep">Data Prep</a></li>
-                <li><a href="#" id="ai_analysis">Visualizations</a></li>
+                <li><a href="#" id="ai_source"><img src="static/img/report-3-24.png">Data Source</a></li>
+                <li><a href="#" id="ai_prep"><img src="static/img/wrench-24.png">Data Prep</a></li>
+                <li><a href="#" id="ai_analysis"><img src="static/img/combo-24.png">Visualizations</a></li>
+                <li><a href="#" id="ai_info"><img src="static/img/info-24.png">Info</a></li>
             </ul>
         </div>
             <div class="info">
-                <div id="ai_source_detail">Info about our data source goes here</div>
+                <div id="ai_source_detail">
+                    <p>
+                        <b>Source Site:</b> DataverseNO - UiT Open Research Data<br>
+                        <b>Title:</b> <a href="https://dataverse.no/dataset.xhtml?persistentId=doi:10.18710/6ZWC9Z">Replication data for Using Fitness Trackers and Smartwatches to Measure Physical Activity in Research</a><br>
+                        <b>Data Timeframe:</b> 
+                        Contains all identified devices released between 2011 and July 2017.<br>
+                        <b>Description:</b> This dataset contains a list of 423 consumer-based wrist-worn activity trackers and smart watches, capable of collecting and estimating physical activity levels in individuals, using accelerometer and other sensors. Data was collected by automatic and manual searches through six online and offline databases, as well as manual collecting of data from company web sites.
+
+                </div>
                 <div id="ai_prep_detail">Info about data wrangling goes here</div>
                 <div id="ai_analysis_detail">Info about analysis goes here</div>
+                <div id="ai_info_detail">
+                *****NOT SURE WE WILL USE THIS AS WE ARENT USING THIS IN THE VIZULATIONS*****<br>    
+                <b>Accelerometer</b> measures acceleration or the rate of change of velocity. In a smartwatch, the accelerometer is used to track movement and activity, such as steps taken, distance travelled, and calories burned. It also enables features such as wrist gestures and shake-to-wake.
+
+                <b>Gyroscope</b> measures the orientation and angular rates of the body. When you move your wrist to check your smartwatch, a gyroscope on your wristwatch will notify you in a split second.             
+                
+                <b>Magnetometer</b> measures the magnetic field strength. In smartwatches, it also refers to a compass sensor. This sensor is used to keep track of the motion and direction in which the user is pointing.
+                
+                <b>Barometer</b> measures the altitude and atmospheric pressure at the current location, and shows all data from the current day in a waveform graph form
+                
+                <b>Heart Rate Photoplethysmography (PPG)</b> measures heart rate for heart rate trackers. As your heart beats, the volume of blood changes within your cardiovascular systems, including the small skin vessels such as your veins and arteries
+                    </div>
+                    <hr style="clear: both;">
             </div>
         </section>
-        </section>
+
+        <hr style="clear: both;">
+    <div id="inputs">
         <select id="selDataset">
             <option value="dataset1"></Area></option>
         </select>
         <select id="selDataset">
             <option value="dataset2">Test Dropdown Area 2</Area></option>
         </select>
-        <hr style="clear: both;">
+    </div>
     <div id="viz">
     <div id="vizr1">   
         <div id="viz1_container" class="viz_container">
@@ -82,7 +105,7 @@
 
     </div> 
     <div id="footer">
-<ul id="team"><li>Azriel</li><li>Debbie</li><li>Kelly</li><li>Robert</li></ul>
-    </div>
+        <ul id="team"><li>Azriel Tamayo</li>|<li>Debbie McNulty</li>|<li>Kelly L Doyle</li>|<li>Robert Bellgraph</li></ul>
+            </div>
   </body>
 </html>
