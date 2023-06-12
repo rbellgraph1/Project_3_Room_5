@@ -83,3 +83,10 @@ ul#team li:hover{
 .viz_container{
     border: 2px solid blue;
 }
+
+#map,
+body,
+html {
+    height: 100%;
+    width: 100%;
+}
