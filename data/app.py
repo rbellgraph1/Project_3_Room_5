@@ -49,8 +49,10 @@ def ID_Num():
         tracker_dict["Barometer"] = res[11]
         tracker_dict["GPS"] = res[12]
         tracker_dict["Heart Rate"] = res[13]
+        tracker_dict["lat"] = res[13]
+        tracker_dict["long"] = res[14]
+        tracker_dict["latlong"] = res[15]
         all_tracker_info.append(tracker_dict)
-    print(len(all_tracker_info))
     session.close()
     return jsonify(all_tracker_info)
     

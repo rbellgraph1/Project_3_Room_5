@@ -1,46 +1,45 @@
 fetch('data/tracker_info_deb.json')
   .then(response => response.json())
   .then(trace_data => {
-    let releaseYears = trace_data.map(item => item["Releaseyear"])
-    let types = trace_data.map(item => item["Type"])
+    let releaseYears = trace_data.map(item => item.Releaseyear)
+    let watchSum = trace_data.reduce((sum, item) => {
+      return sum + (item.Type === "watch" ? 1 : 0);
+    }, 0);
 
-    let watchtotal = trace_data.reduce((sum, item) => sum + (item["Type"] == "watch"), 0)
-    let trackertotal = trace_data.reduce((sum, item) => sum + (item["Type"] == "tracker"), 0)
+    let watch_by_year = [];
+    let tracker_by_year = [];
+
+    for (let i = 0; i < trace_data.length; i++) {
+      let tracewat = trace_data[i];
+      if (tracewat.Type === "watch") {
+        watch_by_year.push(tracewat.Releaseyear);
+      } else {
+        tracker_by_year.push(tracewat.Releaseyear);
+      }
+    }
 
     let trace1 = {
-      x: releaseYears,
-      y: watchtotal,
+      x: watch_by_year,
       name: "Watch",
-      type: "bar"
+      type: "histogram",
     };
 
-    // Trace 2 for the Roman Data
     let trace2 = {
-      x: releaseYears,
-      y: trackertotal,
-      name: "test",
-      type: "bar"
+      x: tracker_by_year,
+      name: "Tracker",
+      type: "histogram",
     };
 
-    // Create data array
     let data = [trace1, trace2];
 
-    console.log(data);
-
-    // Apply a title to the layout
     let layout = {
-      title: "Test",
-      barmode: "group",
-      // Include margins in the layout so the x-tick labels display correctly
-      margin: {
-        l: 50,
-        r: 50,
-        b: 200,
-        t: 50,
-        pad: 4
-      }
+      title: 'Amount of Devices released by Year',
+      xaxis: { title: 'Release Year' },
+      yaxis: { title: 'Number of Devices' },
+      height: 500,
+      width: 1000
     };
 
-    // Render the plot to the div tag with id "plot"
-    Plotly.newPlot("viz_container", data, layout);
-  });
+    Plotly.newPlot("viz2", data, layout);
+  })
+  .catch(err => console.log(err));
