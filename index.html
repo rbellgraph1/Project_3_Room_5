@@ -1,10 +1,15 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <link rel="stylesheet" href="static/css/style.css" />
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
         <script src="static/js/scripts.js"></script>
- 
+        <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+        <script src="https://d3js.org/d3.v5.min.js"></script>
+        <!-- Leaflet CSS -->
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+        integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+        crossorigin="" /> 
     </head>
     <body style="height:100%; width:100%">
     <div id="header"> <section>
@@ -30,30 +35,54 @@
                 <div id="ai_analysis_detail">Info about analysis goes here</div>
             </div>
         </section>
+        </section>
+        <select id="selDataset">
+            <option value="dataset1"></Area></option>
+        </select>
+        <select id="selDataset">
+            <option value="dataset2">Test Dropdown Area 2</Area></option>
+        </select>
         <hr style="clear: both;">
     <div id="viz">
     <div id="vizr1">   
         <div id="viz1_container" class="viz_container">
             <h2>Device Count by Country</h2>
-            <div class="viz1">roberts viz goes here</div>
+            <div id="viz1"></div>
+            <script src="static/js/robertviz1.js"></script>
+            <script src="data/tracker_info.json"></script>
         </div>
         <div id="viz2_container" class="viz_container">
             <h2>Trend Growth by Year</h2>
-            <div class="viz2">Az viz goes here<br></div>
+            <div id="viz2"><br></div>          
+            <script src="static/js/azvis2ver1.js"></script>
+            <script src="data/tracker_info.json"></script>
         </div>
     </div>
     <p>
     <div id="vizr2">   
         <div id="viz3_container" class="viz_container">
-            <h2>Global View by Counts</h2>
-            <div class="viz3">debbie viz goes here</div>
+            <h2>Global Wearables Map</h2>
+            <div id="map"></div>
+              <!-- Leaflet JS -->
+                <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+                integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+                crossorigin=""></script>
+                <!-- D3 JavaScript -->
+                <script src="https://d3js.org/d3.v5.min.js"></script>
+                <!-- API key -->
+                <script type="text/javascript" src="./static/js/config.js"></script>
+                <!-- Our JavaScript -->
+                <script type="text/javascript" src="static/js/map.js"></script> 
+                <a href="http://127.0.0.1:5500/indexmapvis.html">
+                    <img src="static/img/global_wearable_map.png" alt="Global Wearables Map" style="width:1000px;height:500px;">
+                    </a>
+                </div>
+            </div>
         </div>
-    </div>
-</div>
 
     </div> 
     <div id="footer">
-<ul id="team"><li>Azriel</li><li>Debbie</li></ul>
+<ul id="team"><li>Azriel</li><li>Debbie</li><li>Kelly</li><li>Robert</li></ul>
     </div>
   </body>
 </html>

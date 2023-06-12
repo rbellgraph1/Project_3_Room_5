@@ -1,4 +1,4 @@
-fetch('data/tracker_info_deb.json')
+fetch('data/tracker_info.json')
   .then(response => response.json())
   .then(trace_data => {
     let releaseYears = trace_data.map(item => item.Releaseyear)
