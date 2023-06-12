@@ -5,10 +5,15 @@ var myMap = L.map("map", {
   });
   
   // Add a tile layer.
-  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-  }).addTo(myMap);
-  
+  // L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  //     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+  // }).addTo(myMap);
+  L.tileLayer("https://api.mapbox.com/styles/v1/mapbox/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}", {
+    attribution: "Map data &copy; <a href=\"https://www.openstreetmap.org/\">OpenStreetMap</a> contributors, <a href=\"https://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA</a>, Imagery © <a href=\"https://www.mapbox.com/\">Mapbox</a>",
+    maxZoom: 20,
+    id: "satellite-streets-v12",
+    accessToken: API_KEY
+  }).addTo(myMap);;
   // Country data
   var countries = [
       {
@@ -213,6 +218,6 @@ var myMap = L.map("map", {
     color: "black",
     fillColor: color,
     // Adjust the radius.
-    radius: Math.sqrt(countries[i].devices) * 100000
+    radius: Math.sqrt(countries[i].devices) * 50000
   }).bindPopup(`<h1>${countries[i].Country}</h1> <hr> <h3>Devices Total Per Country: ${countries[i].devices}</h3>`).addTo(myMap);
 }
