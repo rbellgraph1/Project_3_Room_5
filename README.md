@@ -12,7 +12,7 @@ Group Members:
 "Replication data for Using Fitness Trackers and Smartwatches to Measure Physical Activity in Research"
 "This dataset contains a list of 423 consumer-based wrist-worn activity trackers and smart watches, capable of collecting and estimating physical activity levels in individuals, using accelerometer and other sensors. Data were collected by automatic and manual searches through six online and offline databases, as well as manual collecting of data from company web sites. Data were collected in 2017, and contains all identified devices released between 2011 (earliest identified device) and July 2017. For each device, 12 attributes are included...", from https://dataverse.no/dataset.xhtml?persistentId=doi:10.18710/6ZWC9Z
 
-- HTML/CSS (Plot
+- HTML/CSS
 - Jupyter Notebook
 - Flask
 - Javascript
