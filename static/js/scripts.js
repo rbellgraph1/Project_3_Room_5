@@ -19,3 +19,10 @@ $(document).ready(function(){
       $('#ai_analysis_detail').toggle("slide");
     });
 });
+
+
+$(document).ready(function(){
+  $('#ai_info').hover(function() {
+    $('#ai_info_detail').toggle("slide");
+  });
+});
