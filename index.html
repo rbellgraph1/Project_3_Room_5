@@ -12,10 +12,7 @@
         integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
 
         crossorigin="" /> 
-        <!-- Leaflet JavaScript code -->
-        <!-- <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js" -->
-        <!-- integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew==" -->
-        <!-- crossorigin=""></script> -->
+        
     </head>
     <body>
     <div id="header"> <section>
@@ -71,15 +68,12 @@
                     </ul>
                 
                 </div>
-                <div id="ai_analysis_detail">
-                    <ul>
-                    <li style="display: block !important;">Counts By Company - Bar Chart using</li>
-                    <li style="display: block !important;">Yearly Treding - Area Chart using</li>
-                    <li style="display: block !important;">Global Map - Mapping functionalry using</li>
-                </ul>
-                </div>
-                <div id="ai_info_detail">info detail</div>
-                
+                <div id="ai_prep_detail">Info about data wrangling goes here</div>
+                <div id="ai_analysis_detail">Info about analysis goes here</div>
+                <!-- <div id="ai_info_detail">
+            
+                    </div> -->
+                    <hr style="clear: both;">
             </div>
             <hr style="clear: both;">
         </section>
@@ -91,37 +85,33 @@
             <!-- <select id="selDataset">
             <option value="dataset2">Test Dropdown Area 2</Area></option>
         </select> -->
-
+    </div>
+    <div id="viz">
+    <div id="vizr1">   
+        <div id="viz1_container" class="viz_container">
+            <h2>Device Count by Company</h2>
+            <div id="viz1"></div>
+            <script src="static/js/robertviz1.js"></script>
+            <script src="data/tracker_info.json"></script>
         </div>
-        <div id="viz">
-            <div id="vizr1">
-                <div id="viz1_container" class="viz_container">
-                    <h2>Device Count by Company</h2>
-                    <div id="viz1"></div>
-                    <script src="data/tracker_info.json"></script>
-
-                    <script src="static/js/robertviz1.js"></script>
-
-                </div>
-                <div id="viz2_container" class="viz_container">
-                    <h2>Trend Growth by Year</h2>
-                    <div id="viz2"><br></div>
-                    <script src="static/js/azvis2ver1.js"></script>
-                    <script src="data/tracker_info.json"></script>
-                </div>
-            </div>
-            <p>
-            <div id="vizr2">
-                <div id="viz3_container" class="viz_container">
-                    <h2>Global Wearables Map</h2>
-                    <div id="map"></div>
-                    <!-- API key -->
-                    <script type="text/javascript" src="./static/js/config.js"></script>
-                    <!-- Our JavaScript -->
-                    <script type="text/javascript" src="static/js/map.js"></script>
-                    <a href="http://127.0.0.1:5500/indexmapvis.html">
-                        <img src="static/img/global_wearable_map.png" alt="Global Wearables Map">
-
+        <div id="viz2_container" class="viz_container">
+            <h2>Trend Growth by Year</h2>
+            <div id="viz2"><br></div>          
+            <script src="static/js/azvis2ver1.js"></script>
+            <script src="data/tracker_info.json"></script>
+        </div>
+    </div>
+    <p>
+    <div id="vizr2">   
+        <div id="viz3_container" class="viz_container">
+            <h2>Global Wearables Map</h2>
+            <div id="map"></div>
+                <!-- API key -->
+                <!-- <script type="text/javascript" src="./static/js/config.js"></script>
+                Our JavaScript
+                <script type="text/javascript" src="static/js/map.js"></script>  -->
+                <a href="http://127.0.0.1:5500/indexmapvis.html">
+                    <img src="static/img/global_wearable_map.png" alt="Global Wearables Map">
                     </a>
                 </div>
             </div>

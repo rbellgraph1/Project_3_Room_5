@@ -231,7 +231,7 @@ let countries = [
 
 ];
 
-for (var i = 0; i < countries.length; i++) {
+for (let i = 0; i < countries.length; i++) {
   // Set color based on country
   let color;
   switch (countries[i].Country) {
