@@ -63,8 +63,6 @@ function loadDropdown(uniqueCompany, selectedCompany) {
     var sel = document.getElementById("selDataset");
     sel.innerHTML = "";
 
-    console.log(uniqueCompany)
-
     // Add "All Companies" option
     var optAll = document.createElement("option");
     optAll.value = "All Companies";
