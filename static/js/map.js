@@ -1,13 +1,12 @@
 // Create a map object.
-var myMap = L.map("map", {
+// We set the longitude, latitude, and starting zoom level.
+let myMap = L.map("map", {
   center: [15.5994,-28.6731],
   zoom: 3
 });
 
-// Add a tile layer.
-// L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-//     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-// }).addTo(myMap);
+// Adding a tile layer (the background map image) to our map:
+// We use the addTo() method to add objects to our map.
 L.tileLayer("https://api.mapbox.com/styles/v1/mapbox/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}", {
   attribution: "Map data &copy; <a href=\"https://www.openstreetmap.org/\">OpenStreetMap</a> contributors, <a href=\"https://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA</a>, Imagery © <a href=\"https://www.mapbox.com/\">Mapbox</a>",
   maxZoom: 20,
@@ -15,7 +14,7 @@ L.tileLayer("https://api.mapbox.com/styles/v1/mapbox/{id}/tiles/{z}/{x}/{y}?acce
   accessToken: API_KEY
 }).addTo(myMap);
 // Country data
-var countries = [
+let countries = [
   {
     Country: "Australia",
     lat: -25.274399,
@@ -234,7 +233,7 @@ var countries = [
 
 for (var i = 0; i < countries.length; i++) {
   // Set color based on country
-  var color;
+  let color;
   switch (countries[i].Country) {
     case "Australia":
       color = "yellow";
