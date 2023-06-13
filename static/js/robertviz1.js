@@ -18,7 +18,7 @@ fetch('/data/tracker_info.json')
 
         // Define the layout options for the histogram
         let layout = {
-            // height: 100%,
+            height: 450,
             // width: 100%,
             // title: "Device Count by Company",
             // xaxis: {

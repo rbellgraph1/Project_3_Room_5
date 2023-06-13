@@ -93,17 +93,19 @@ ul#team li:hover{
 }
 
 #viz{
-    margin-top: 25px;
+    kldmargin-top: 25px;
 }
 
 #viz1_container{
     float: left;
-    width:49%
+    width:49%;
+    height:500px;
 }
 
 #viz2_container{
     float: right;
-    width:49%
+    width:49%;
+    height:500px; 
 }
 
 #viz3_container{
@@ -111,7 +113,9 @@ ul#team li:hover{
     width: 100%;
     margin-top: 25px;
 }
-
+#viz3_container img {
+    width:100%;
+}
 #viz h2{
     background: #666666;
     color: #ffffff;

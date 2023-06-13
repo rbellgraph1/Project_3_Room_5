@@ -312,7 +312,7 @@ for (var i = 0; i < countries.length; i++) {
   // Add circles to the map.
 L.circle(countries[i].latlong, {
   fillOpacity: 0.75,
-  color: "black",
+  color: "white",
   fillColor: color,
   // Adjust the radius.
   radius: Math.sqrt(countries[i].devices) * 50000

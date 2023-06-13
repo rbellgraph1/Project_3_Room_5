@@ -33,11 +33,11 @@ fetch('data/tracker_info.json')
     let data = [trace1, trace2];
 
     let layout = {
-      title: 'Amount of Devices released by Year',
-      xaxis: { title: 'Release Year' },
+      // title: 'Amount of Devices released by Year',
+      // xaxis: { title: 'Release Year' },
       yaxis: { title: 'Number of Devices' },
-      height: 500,
-      width: 1000
+      height: 450,
+      // width: 1000
     };
 
     Plotly.newPlot("viz2", data, layout);
