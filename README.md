@@ -14,11 +14,12 @@ Group Members:
 - Jupyter Notebook
 - Flask
 - Javascript
-- Visualizations
+- Data Visualizations
 - JavaScript library not shown in class: JQuery
 - Getting the Data and Import, the database
 - SQLite: Pandas 
 - Plotly
+- Leaflet
 
 # Visualizations: 
 - Visual 1 (left in index.html): Device Count By Company (Dropdown to filter by companies)
