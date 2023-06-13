@@ -89,7 +89,7 @@ function loadDropdown(uniqueCompany, selectedCompany) {
 }
 
 
-// fetch('data/tracker_info_deb.json')
+// fetch('data/tracker_info.json')
 //     .then(response => response.json())
 //     .then(trace_data => {
 //         // Use the data to create the Plotly area map
