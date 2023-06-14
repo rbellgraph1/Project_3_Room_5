@@ -23,6 +23,9 @@ Group Members:
 - Plotly
 - Leaflet
 
+# Resources:
+- Jonathan Caro, LatLong.net, Mapbox.com, Leafletjs.com, plotly.com, flask-sqlalchemy.palletsprojects.com, DB Browser for SQLite, jsbin.com, stackoverflow.com
+
 # Visualizations: 
 - Visual 1 (left in index.html): Device Count By Company (Dropdown to filter by companies)
  
